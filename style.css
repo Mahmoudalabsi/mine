@@ -170,19 +170,27 @@ h1 {
   opacity: 0;
   animation: fadeUp 0.6s 0.12s ease forwards;
 }
+/* ── Continuous Shimmer Effect ── */
 h1 .gold {
-  color: #b8860b;
-  background: linear-gradient(90deg, #b8860b 0%, #f4d03f 25%, #b8860b 50%, #f4d03f 75%, #b8860b 100%);
-  background-size: 200% 100%;
+  color: #c9a84c;
+  background: linear-gradient(
+    110deg,
+    #5a4515 0%,
+    #c9a84c 20%,
+    #fff5cc 40%,
+    #c9a84c 60%,
+    #5a4515 100%
+  );
+  background-size: 400% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: shimmer 10s ease-in-out infinite;
+  animation: shimmer 6s linear infinite;
 }
 
 @keyframes shimmer {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
+  0% { background-position: 100% 0; }
+  to { background-position: -300% 0; }
 }
 
 .hero-desc {
@@ -456,13 +464,20 @@ footer {
   margin-bottom: 1rem;
 }
 .page-content h1 .gold {
-  color: #b8860b;
-  background: linear-gradient(90deg, #b8860b 0%, #f4d03f 25%, #b8860b 50%, #f4d03f 75%, #b8860b 100%);
-  background-size: 200% 100%;
+  color: #c9a84c;
+  background: linear-gradient(
+    110deg,
+    #5a4515 0%,
+    #c9a84c 20%,
+    #fff5cc 40%,
+    #c9a84c 60%,
+    #5a4515 100%
+  );
+  background-size: 400% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: shimmer 10s ease-in-out infinite;
+  animation: shimmer 6s linear infinite;
 }
 .page-desc {
   font-size: 1.1rem;
