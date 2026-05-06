@@ -21,6 +21,7 @@
     <meta name="theme-color" content="#c9a84c" />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
     <!-- Open Graph / Social Media Preview -->
     <meta property="og:type" content="website" />
@@ -69,22 +70,22 @@
       <div class="hero-inner">
         <div class="hero-grid">
           <!-- Right: QR + Text + Buttons -->
-          <div class="hero-text">
-            <div class="qr-card">
+          <div class="hero-text" data-aos="fade-up" data-aos-duration="800">
+            <div class="qr-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
               <img src="assets/qr-code.png" alt="QR Code" />
             </div>
 
-            <h1>
+            <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
               صمّم صورك <span class="gold">باحترافية</span><br />
               بلمسة <span class="gold">فاخرة</span> وسهلة
             </h1>
 
-            <p class="hero-desc">
+            <p class="hero-desc" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
               اصنع أجمل التصاميم التي تعبّر عن هويتك. قوالب حصرية، أدوات متقدمة،
               وتجربة مستخدم صُممت خصيصاً لك.
             </p>
 
-            <div class="btn-group">
+            <div class="btn-group" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
               <a href="#" class="btn-store">
                 <img
                   src="assets/playstore.png"
@@ -109,7 +110,7 @@
           </div>
 
           <!-- Left: Phone Mockup (static) -->
-          <div class="hero-phone">
+          <div class="hero-phone" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <div class="phone-wrap">
               <div class="phone-glow"></div>
               <img src="assets/phone-mockup.png" alt="واجهة التطبيق" />
@@ -236,6 +237,7 @@
       </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
