@@ -377,9 +377,13 @@ footer {
   font-size: 0.875rem;
   color: #7a6a40;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, padding-right 0.3s ease;
+  display: inline-block;
 }
-.footer-col a:hover { color: #b8860b; }
+.footer-col a:hover { 
+  color: #b8860b;
+  padding-right: 0.5rem;
+}
 .footer-bar {
   display: flex;
   flex-wrap: wrap;
