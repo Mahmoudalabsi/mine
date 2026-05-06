@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" href="assets/app-icon.png" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 
@@ -24,14 +25,14 @@
     </div>
   </header>
 
-  <main>
+<main>
     <div class="page-content">
       <div class="page-inner">
-        <h1 class="animate-title" data-aos="fade-up" data-aos-duration="700">مركز المساعدة</h1>
-        <p class="page-desc animate-desc" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">ابحث عن إجابات لأسئلتك أو تواصل مع فريق الدعم.</p>
+        <h1 data-aos="fade-up">مركز المساعدة</h1>
+        <p class="page-desc" data-aos="fade-up" data-aos-delay="100">ابحث عن إجابات لأسئلتك أو تواصل مع فريق الدعم.</p>
         
         <div class="help-topics">
-          <div class="topic-card animate-card" data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
+          <div class="topic-card" data-aos="fade-up" data-aos-delay="150">
             <h3>البدء السريع</h3>
             <ul>
               <li><a href="#">كيفية إنشاء حساب جديد</a></li>
@@ -39,7 +40,7 @@
               <li><a href="#">تسجيل الدخول</a></li>
             </ul>
           </div>
-          <div class="topic-card animate-card" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
+          <div class="topic-card" data-aos="fade-up" data-aos-delay="200">
             <h3>القوالب والتصميم</h3>
             <ul>
               <li><a href="#">اختيار القالب المناسب</a></li>
@@ -47,7 +48,15 @@
               <li><a href="#">تغيير الألوان</a></li>
             </ul>
           </div>
-          <div class="topic-card animate-card" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
+          <div class="topic-card" data-aos="fade-up" data-aos-delay="200">
+            <h3>القوالب والتصميم</h3>
+            <ul>
+              <li><a href="#">اختيار القالب المناسب</a></li>
+              <li><a href="#">تخصيص النصوص</a></li>
+              <li><a href="#">تغيير الألوان</a></li>
+            </ul>
+          </div>
+          <div class="topic-card" data-aos="fade-up" data-aos-delay="250">
             <h3>الحفظ والتصدير</h3>
             <ul>
               <li><a href="#">صيغ الملفات المدعومة</a></li>
@@ -55,11 +64,11 @@
               <li><a href="#">تحميل الصورة</a></li>
             </ul>
           </div>
-          <div class="topic-card animate-card" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
+          <div class="topic-card" data-aos="fade-up" data-aos-delay="300">
             <h3>الدفع والاشتراك</h3>
             <ul>
               <li><a href="#">خطط الاشتراك</a></li>
-              <li><a href="#">طرق الدفع</a></li>
+              <li><a href="#">طرق دفع</a></li>
               <li><a href="#">الإلغاء والاسترداد</a></li>
             </ul>
           </div>
@@ -67,6 +76,7 @@
       </div>
     </div>
   </main>
+  <script>AOS.init();</script>
 
   <footer>
     <div class="footer-inner">
@@ -135,5 +145,7 @@
     </div>
   </footer>
 
+  <script src="assets/aos.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
